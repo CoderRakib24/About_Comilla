@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="15dp"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#9AFBC6"
+        app:cardCornerRadius="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Comilla"
+            android:textSize="40dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            />
+
+
+    </androidx.cardview.widget.CardView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#9A9A9A"
+        android:layout_marginTop="10dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#9A9A9A"
+                android:layout_marginTop="10dp"
+                />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="350dp"
+                android:src="@drawable/comilla_map"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#9A9A9A"
+                android:layout_marginVertical="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Comilla is a metropolis on the banks of the Gomti River in eastern Bangladesh. Comilla was one of the cities of ancient Bengal. It was once the capital of Tripura kingdom. Comilla Airport is located in the Dulipara area of Comilla city. Along with the Comilla Economic Zone EPZ, various industrial factories have come up at the airport, making the airport area a business and commercial city. Comilla City is a division centered city district with surrounding districts coming to Comilla in more diverse areas of work. Bibir Bazar land port is located 5 km away from Comilla city. The area of Comilla City Corporation is 53.04 square kilometers, so the surrounding areas of the main city fall under the jurisdiction of the City Corporation. The urban areas falling outside the city corporation are considered as suburbs with a population of 600,000.\n\nHistory\n\nThe Comilla region was once under ancient Samatata and was joined with Tripura State. This district came under the reign of the kings of the Harikela in the ninth century AD. Lalmai Mainamati was ruled by the Deva dynasty (eighth century AD), and (during the 10th and mid-11th century AD). In 1732, it became the centre of the Bengal-backed domain of Jagat Manikya.\nThe Peasants' Movement against the king of Tripura in 1764, which originally formed under the leadership of Shamsher Gazi is a notable historical event in Comilla. It came under the rule of East India Company in 1765. This district was established as the Tripura district in 1790. It was renamed Comilla in 1960. Chandpur and Brahmanbaria subdivisions of this district were transformed into districts in 1984.\n\nBritish era\n\nCommunal tension spread over Comilla when a Muslim was shot in the town during the partition of Bengal in 1905. On 21 November 1921, Kazi Nazrul Islam composed patriotic songs and tried to awaken the townspeople by protesting the Prince of Wales's visit to India. During this time, Avay Ashram, as a revolutionary institution, played a significant role. Poet Rabindranath Tagore and Mahatma Gandhi visited Comilla at that time. In 1931, approximately 4000 peasants in Mohini village in Chauddagram Upazila revolted against a land revenue tax. The British Gurkha soldiers fired indiscriminately on the crowd, killing four people. In a major peasant gathering, the police fired at Hasnabad of Laksam Upazila in 1932. Two people were killed and many were wounded. Comilla Victoria Government College in the city was named in memory of Queen Victoria. The main meaning of the context is that the people of Comilla have always maintained good relations and harmonized with others.\n\nWorld War II\n\nComilla Cantonment is an important military base and the oldest in East Bengal. It was widely used by the British Indian Army during World War II. It was the headquarter of the British 14th Army. There is a war cemetery, Maynamati War Cemetery,[9] in Comilla that was established after World War II to remember the Allied soldiers who died during World War I and II, mostly from Commonwealth states and the United States. There are a number of Japanese soldiers buried there as well, from the Second World War.\n\nDuring the war for the liberation of Bangladesh, when Pakistan Army created the 39th ad hoc Division in mid-November, from the 14th Division units deployed in those areas, to hold on to the Comilla and Noakhali districts, and the 14th Division was tasked to defend the Sylhet and Brahmanbaria areas only.[11] Pakistan Army's 93,000 troops unconditionally surrendered to the Joint Coalition forces on 16 December 1971. This day and event is commemorated as the Bijoy Dibos (Bengali: বিজয় দিবস) in Bangladesh.\n\nGeography\n\nComilla is bounded by Burichang Upazila and Tripura on the north, Laksham, and Chauddagram on the south, and Barura on the west. The major rivers that pass through Comilla include Gomoti River and Little Feni. The Tropic of Cancer crosses Comilla town on the south side just over the Tomsom Bridge.\n\nClimate\n\nComilla has a tropical savanna climate. The Köppen-Geiger climate classification is Aw. The climate of Comilla is generally marked with monsoons, high temperature, considerable humidity, and heavy rainfall. The hot season commences early in April and continues until July. The average annual temperature in Comilla is 25.5 °C (77.9 °F). About 2,295 mm (90.35 in) of precipitation falls."
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#9A9A9A"
+                android:layout_marginVertical="10dp"
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
